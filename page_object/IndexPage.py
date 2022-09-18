@@ -28,7 +28,7 @@ class IndexPage(BasePage):
 if __name__ == '__main__':
     pass
 
-    # driver = webdriver.Chrome()
-    # txt = 'shuji'
-    # ip =IndexPage(driver)
-    # ip.search(txt)
+    driver = webdriver.Chrome()
+    txt = 'shuji'
+    ip =IndexPage(driver)
+    ip.search(txt)
